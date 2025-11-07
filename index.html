@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Quiz 🎂</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id="confetti"></canvas>
+        
+        <div class="birthday-card">
+            <h1 class="quiz-title">🎂 Birthday Quiz 🎂</h1>
+            <p class="quiz-subtitle">Test your birthday knowledge, Mark!</p>
+            
+            <div class="quiz-question" id="quizQuestion">
+                <p class="question-text">What password of our multicraft servers?</p>
+                <div class="quiz-input-container">
+                    <input type="text" id="quizInput" class="quiz-input" placeholder="Enter password..." autocomplete="off">
+                    <button class="quiz-submit-btn" id="quizSubmit">Submit</button>
+                </div>
+                <div class="quiz-result" id="quizResult"></div>
+                <div id="birthdayLink" style="display: none; margin-top: 20px;">
+                    <a href="birthday.html" class="quiz-nav-btn">🎉 Go to Birthday Page! 🎉</a>
+                </div>
+                <button class="quiz-retry-btn" id="quizRetry" style="display: none;">Try Again</button>
+            </div>
+        </div>
+        
+        <div class="floating-elements">
+            <span class="emoji">🎊</span>
+            <span class="emoji">🎁</span>
+            <span class="emoji">🎈</span>
+            <span class="emoji">🎂</span>
+            <span class="emoji">🎉</span>
+        </div>
+    </div>
+    
+    <script src="quiz.js"></script>
+</body>
+</html>
