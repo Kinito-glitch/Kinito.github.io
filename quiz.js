@@ -91,7 +91,7 @@ function checkAnswer() {
     
     // Show result
     if (isCorrect) {
-        quizResult.textContent = '🎉 Correct! Great job, Mark! 🎉';
+        quizResult.textContent = '🎉 Correct! Great job! 🎉';
         quizResult.classList.add('correct');
         quizInput.classList.add('correct');
         
@@ -166,4 +166,5 @@ document.querySelectorAll('.quiz-nav-btn, .quiz-submit-btn, .quiz-retry-btn').fo
         button.style.backgroundPosition = `${gradientPosition}% 50%`;
     }, 50);
 });
+
 
